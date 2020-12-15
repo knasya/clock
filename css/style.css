@@ -1,0 +1,264 @@
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.menu {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.menu ul.mm {
+  position: relative;
+  top: 20px;
+  margin-top: 5px;
+}
+.menu ul li {
+  display: inline;
+  margin: 40px;
+  padding: 10px;
+  list-style-type: none;
+}
+.menu a {
+  color: rgb(59, 41, 34);
+  font-size: 25px;
+  font-weight: 400;
+}
+.menu a:hover {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.h {
+  color: black;
+  font-size: 18px;
+  font-weight: 400px;
+  background-color: #a59a9a;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.kr {
+  color: #707070;
+  font-size: 14px;
+  font-style: 16px;
+  line-height: 16px;
+}
+.po {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  text-align: left;
+}
+.har {
+  color: #3a3434;
+  font-weight: 400px;
+  list-style-image: url("https://img.icons8.com/plasticine/20/000000/clock.png");
+}
+.har li {
+  margin: 10px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  color: #272020;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+textarea {
+  width: 200px;
+  height: 130px;
+  color: #272020;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+img.img_border {
+  border: 2px solid rgb(199, 185, 166);
+  padding: 5px;
+}
+img.img_border:hover {
+  border: none;
+  position: relative;
+  top: 2px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+img.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.email:focus {
+  background-color: antiquewhite;
+  color: rgb(52, 58, 58);
+}
+table {
+  border-collapse: collapse;
+  border: 3px solid rgb(90, 84, 76);
+}
+tr {
+  border: 2px solid #ccc;
+}
+td,
+th {
+  border: 2px solid #ccc;
+}
+.one {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+}
+.catalog {
+  display: flex;
+  align-items: stretch;
+  text-align: center;
+}
+.clockk {
+  margin: 50px;
+  background-color: white;
+  padding-top: 10px;
+  border-radius: 25px;
+  width: 200px;
+  transition: 0.5s;
+}
+.clockk img {
+  border-radius: 25px;
+}
+.clockOne {
+  margin-left: 150px;
+}
+.catalog a {
+  color: #3a3434;
+  font-size: 20px;
+}
+.perech {
+  text-decoration: line-through;
+}
+.luu {
+  position: relative;
+  bottom: 23px;
+}
+.cc {
+  margin-left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #3a3434;
+  margin-right: 30px;
+}
+.nav {
+  display: flex;
+  align-items: stretch;
+}
+.mw {
+  text-decoration: none;
+  color: #3a3434;
+  font-size: 20px;
+  margin: 30px;
+}
+.mw:hover,
+.cc:hover {
+  color: #d6c8c8;
+}
+.man {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+}
+.man a {
+  color: #3a3434;
+  font-size: 20px;
+}
+.woomen {
+  margin-left: 100px;
+}
+.raz {
+  display: flex;
+  align-items: stretch;
+}
+.harak {
+  margin-left: 350px;
+}
+.mai {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.cen,
+.nach {
+  text-align: center;
+}
+.cen {
+  font-style: italic;
+  color: #484343;
+}
+.inde {
+  background-image: url(https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3831-3234-4838-a535-366561396235__wristwatch-1149669_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+.foo {
+  position: absolute;
+  bottom: 0;
+}
+header {
+  background-color: #fcf3f3;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.6s;
+}
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #fcf3f3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+footer p {
+  padding-right: 20px;
+}
+.ot {
+  margin-left: 8px;
+  transition: 0.6s;
+}
+.vst {
+  margin: 100px;
+  color: rgb(75, 69, 63);
+  transition: 0.6s;
+}
+.chas {
+  font-size: 40px;
+}
+.ml {
+  font-size: 20px;
+}
+button {
+  background-color: #d3969f;
+  border: none;
+  color: #fcf9f9;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 20px;
+}
+button:hover {
+  background-color: #cf435b;
+  color: #ffffff;
+}
+button:active {
+  background-color: #613e47;
+  color: #ffffff;
+}
+.kupit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
