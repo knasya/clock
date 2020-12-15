@@ -150,7 +150,8 @@ th {
 }
 .nav {
   display: flex;
-  align-items: stretch;
+  flex-direction: row;
+  align-items: center;
 }
 .mw {
   text-decoration: none;
