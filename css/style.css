@@ -40,6 +40,7 @@ a {
   border-radius: 20px;
   padding: 5px;
   text-align: center;
+  padding-left: 50px;
 }
 .kr {
   color: #707070;
@@ -53,6 +54,7 @@ a {
   font-weight: 400px;
   line-height: 24px;
   text-align: left;
+  padding-left: 50px;
 }
 .har {
   color: #3a3434;
@@ -77,8 +79,9 @@ textarea {
   text-transform: capitalize;
 }
 img.img_border {
-  border: 2px solid rgb(199, 185, 166);
+  border: 2px solid rgb(255, 255, 255);
   padding: 5px;
+  border-radius: 20px;
 }
 img.img_border:hover {
   border: none;
@@ -100,6 +103,7 @@ img.logo {
 table {
   border-collapse: collapse;
   border: 3px solid rgb(90, 84, 76);
+  padding-left: 50px;
 }
 tr {
   border: 2px solid #ccc;
@@ -129,7 +133,23 @@ th {
   border-radius: 25px;
 }
 .clockOne {
-  margin-left: 150px;
+  margin-left: 200px;
+}
+.clockOne:hover {
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+  width: 250px;
+}
+.clockTwo:hover {
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+  width: 250px;
+}
+.clockThree:hover {
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+  width: 250px;
+}
+.clockFour:hover {
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+  width: 250px;
 }
 .catalog a {
   color: #3a3434;
@@ -151,41 +171,19 @@ th {
 .nav {
   display: flex;
   flex-direction: row;
-  align-items: center;
-}
-.mw {
-  text-decoration: none;
-  color: #3a3434;
-  font-size: 20px;
-  margin: 30px;
-}
-.mw:hover,
-.cc:hover {
-  color: #d6c8c8;
-}
-.man {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  text-align: center;
-}
-.man a {
-  color: #3a3434;
-  font-size: 20px;
-}
-.woomen {
-  margin-left: 100px;
+  align-items: flex-end;
 }
 .raz {
   display: flex;
   align-items: stretch;
+  padding-left: 50px;
 }
 .harak {
   margin-left: 350px;
 }
 .mai {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .cen,
 .nach {
@@ -194,6 +192,8 @@ th {
 .cen {
   font-style: italic;
   color: #484343;
+  margin-top: 0;
+  padding-top: 10px;
 }
 .foo {
   position: absolute;
@@ -206,7 +206,7 @@ header {
   transition: 0.6s;
 }
 footer {
-  height: 70px;
+  height: 50px;
   width: 100%;
   background-color: #fcf3f3;
   display: flex;
@@ -271,4 +271,22 @@ main.glav {
   background-size: cover;
   width: 100%;
   margin: 0;
+}
+body.back {
+  background: url(https://st4.depositphotos.com/13349494/26679/i/600/depositphotos_266792880-stock-photo-close-view-light-pink-paint.jpg)
+    no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.price {
+  color: #3a3434;
+  font-size: 20px;
 }
